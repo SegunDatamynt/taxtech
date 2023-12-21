@@ -37,6 +37,7 @@ function Tools() {
             </div>
         </div>
         <div className='col-span-1 bg-[#F1F1F1] rounded-lg overflow-hidden'>
+
   {selectedOption === 'PayBills' && (
     <img
       src={Paybills}
@@ -53,7 +54,6 @@ function Tools() {
       style={{ opacity: selectedOption === 'MoneyTransfer' ? 1 : 0 }}
     />
   )}
-    <img className='absolute inset-0 object-cover transform rotate-300 -mt-[10em]  ' src={ BgImage} alt='' width={787.03} height={772.03} style={{ top: '235%', left: '50%', transformOrigin: '50% 50%', zIndex: -4 }} />
 
 </div>
 
@@ -69,11 +69,13 @@ function Tools() {
     </div>
 
         </div>
+            <img className='absolute inset-0 object-cover transform rotate-300 ' src={ BgImage} alt='' width={787.03} height={772.03} style={{ top: '210%', left: '36%', transformOrigin: '50% 50%', zIndex: -4 }} />
+
         <div className=' col-span-1 px-10 pt-12'>
             <div className='mt-[12em]'>
             <p className='text-[36px] font-poppins font-bold text-[#4F4F4F]'>Transact on the go</p>
             <span className='text-[#4F4F4F]'>Stay on top of your business with our easy- <br/>to-use app</span> <br/>
-            <button className='bg-green-600 mt-6 p-3 px-10 rounded-xl'>Get Started</button>
+            <button className='bg-[#5CB23ACC] mt-6 p-3 px-10 rounded-xl text-white'>Get Started</button>
             <div className='flex mt-6 gap-4'>
             <img src={AppleStore} height={41.99} width={145.13} alt='store'/>
             <img src={Goodlestore} height={41.99} width={145.13} alt='store'/>

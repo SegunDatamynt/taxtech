@@ -15,7 +15,7 @@ function Features() {
             <div className=' col-span-1  border border-[#5CB23A45] w-[402.67px] h-[388px] px-[40px] py-[30px] '>
                 <img width={57.4} height={67.69} alt='' src={MoneyTransafer} className='mt-[5em] mb-4'/>
                 <div>
-                    <p className='text-[22px] mb-4'>User Friendly</p>
+                    <p className='text-[22px] mb-4 font-bold'>User Friendly</p>
                     <p className='text-[18px] mb-4'>Highly responsive and easy to <br/> navigate</p>
                 </div>
 
@@ -23,7 +23,7 @@ function Features() {
             <div className=' col-span-1  border border-[#5CB23A45] w-[402.67px] h-[388px] px-[40px] py-[30px] '>
                 <img width={57.4} height={67.69} alt='' src={Security} className='mt-[5em] mb-4'/>
                 <div>
-                    <p className='text-[22px] mb-4'>Secure</p>
+                    <p className='text-[22px] mb-4 font-bold'>Secure</p>
                     <p className='text-[18px] mb-4'>Your data is secure. It is continuously monitored, audited, and stored in an encrypted form.</p>
                 </div>
 
@@ -31,7 +31,7 @@ function Features() {
             <div className=' col-span-1  border border-[#5CB23A45] w-[402.67px] h-[388px] px-[40px] py-[30px] '>
                 <img width={57.4} height={67.69} alt='' src={EMI} className='mt-[5em] mb-4'/>
                 <div>
-                    <p className='text-[22px] mb-4'>Fast </p>
+                    <p className='text-[22px] mb-4 font-bold'>Fast </p>
                     <p className='text-[18px] mb-4'>Transacting takes only a few <br/> seconds - it&apos;s convenient and safe.</p>
                 </div>
 

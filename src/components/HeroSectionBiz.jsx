@@ -11,9 +11,9 @@ function HeroSection() {
             <button className=' bg-[#5CB23ACC] py-[14px] px-[24px] mt-6 mb-[16em] font-semibold text-[16px] rounded-lg'>Create free account</button>
         </div>
  
- <div className='  relative mr-[8em] -mt-[11em] mb-[38em]'>
+ <div className='  relative mr-[18em] -mt-[11em] mb-[38em]'>
   <img className='absolute inset-0 object-cover transform rotate-240' src={RectangleIMG} alt='' width={1036} height={574} style={{ top: '95%', left: '15%', transformOrigin: '50% 50%', zIndex: 5 }} />
-  <img className='absolute inset-0 object-cover transform rotate-300 -mt-[10em] -ml-[6em]' src={ Circleembellishment} alt='' width={500.34} height={558.37} style={{ top: '40%', left: '77%', transformOrigin: '50% 50%', zIndex: 4 }} />
+  <img className='absolute inset-0 object-cover transform rotate-300 -mt-[10em]  ' src={ Circleembellishment} alt='' width={500.34} height={558.37} style={{ top: '40%', left: '75%', transformOrigin: '50% 50%', zIndex: 4 }} />
 </div>
 
 

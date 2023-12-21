@@ -12,8 +12,7 @@ function HeroSection() {
         <div className=' col-span-1 p-6  '>
             <p className='text-[46px] font-Poppins font-bold py-2'>Secure & seamless <br/>online transactions</p>
             <p className='py-2 text-[18px] font-poppins font-semibold'>Providing you with the best online payment experience</p>
-            <button className=' bg-green-600 py-[14px] px-[24px] mt-6 mb-[95px] font-semibold text-[16px] rounded'>Create free account</button>
-
+            <button className='bg-[#5CB23ACC] py-[14px] px-[24px] mt-6 mb-[95px] font-semibold text-[16px] rounded'>Create free account</button>
         </div>
  
  <div className='col-span-1 relative mr-[8em] -mt-[10em] mb-[13em]'>

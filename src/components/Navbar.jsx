@@ -34,7 +34,7 @@ function Navbar() {
         <p>Contact </p>
         <p> | </p>
         <p>Login </p>
-        <button className='bg-green-400 px-[24px] py-[13px] rounded-xl text-[16px] font-poppins -m-3'>Create Free Account</button>
+        <button className='bg-[#5CB23ACC] px-[24px] py-[13px] rounded-xl text-[16px] font-poppins -m-3'>Create Free Account</button>
         </div>
         </div>
       </div>
