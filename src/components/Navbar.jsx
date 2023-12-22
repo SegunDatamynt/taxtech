@@ -15,19 +15,19 @@ function Navbar() {
       <div className='flex p-2 '>
         <img alt='' src={Logo} width={163} height={64.19} />
         <div></div>
-        <div className='p-6 gap-6 font-poppins text-[16px] flex '>
+        <div className='p-6 gap-6 font-poppins text-[16px] flex hover:cursor-pointer '>
         <p  style={{
           borderBottom: showhero === 'HeroSection' ? '4px solid green' : 'none',
           fontWeight: showhero === 'HeroSection' ? 'bold' : 'normal',
         }} onClick={()=> handleShowhero('HeroSection')}>For Individuals</p>
-        
+
         <p style={{
           borderBottom: showhero === 'HeroSectionBiz' ? '4px solid green' : 'none',
           fontWeight: showhero === 'HeroSectionBiz' ? 'bold' : 'normal',
         }} onClick={()=>handleShowhero('HeroSectionBiz')}>For Businesses</p>
         </div>
       </div>
-      <div className='p-4 mt-4 flex  '>
+      <div className='p-4 mt-4 flex  hover:cursor-pointer '>
         <div className=' '>
           <div className=' flex gap-12 mr-4'>
         <p>About Us</p>

@@ -8,7 +8,7 @@ function Footer() {
   return (
     <div>
         <div className='grid grid-cols-2 justify-between px-[7em]'>
-            <div className=' col-span-1'>
+            <div className=' col-span-1 hover:cursor-pointer'>
                 <img src={Logo} width={163} height={64.19} alt='' />
                 <div className='flex gap-6 mt-6 ml-2'>
                 <img src={Twitter} width={20} height={20} alt='' />
@@ -22,14 +22,14 @@ function Footer() {
             </div>
             <div className=' col-span-1  '>
                 <div className='grid grid-cols-2 '>
-                    <div className=' '>
+                    <div className='hover:cursor-pointer '>
                             <p className='font-semibold'>About Us</p>
                             <div className='grid grid-cols mt-4'>
                             <span className='mt-4'>About</span>
                             <span className='mt-4'>Legal & privacy</span>
                             </div>
                     </div>
-                    <div className=''>
+                    <div className=' hover:cursor-pointer'>
                             <p className='font-semibold'>Products</p>
                             <div className='grid grid-cols mt-4'>
                             <span className='mt-4'>TBook®</span>
@@ -39,8 +39,6 @@ function Footer() {
                     </div>
                 </div>
                 </div>
-
-
     </div>
     </div>
   )
