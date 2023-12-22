@@ -58,7 +58,7 @@ function Tools() {
           alt=''
           width={787.03}
           height={772.03}
-          style={{ top: '205%', left: '40%', transformOrigin: '50% 50%', zIndex: -4 }}
+          style={{ top: '205%', left: '35%', transformOrigin: '50% 50%', zIndex: -4 }}
         />
         <div className='col-span-1 px-10 pt-12'>
           <div className='mt-[12em]'>
